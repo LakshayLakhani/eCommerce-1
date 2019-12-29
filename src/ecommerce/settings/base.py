@@ -27,12 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'hungrypy@gmail.com' 
-EMAIL_HOST_PASSWORD = 'yourpassword'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'Python ecommerce <hungrypy@gmail.com>'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'hungrypy@gmail.com' 
+# EMAIL_HOST_PASSWORD = 'yourpassword'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# DEFAULT_FROM_EMAIL = 'Python ecommerce <hungrypy@gmail.com>'
 BASE_URL = '127.0.0.1:8000'
 
 
@@ -79,13 +79,13 @@ FORCE_INACTIVE_USER_ENDSESSION= False
 
 
 
-MAILCHIMP_API_KEY = "717d0854ed20fed3be3689a3f125915c-us17"
-MAILCHIMP_DATA_CENTER = "us17"
-MAILCHIMP_EMAIL_LIST_ID = "e2ef12efee"
+# MAILCHIMP_API_KEY = "717d0854ed20fed3be3689a3f125915c-us17"
+# MAILCHIMP_DATA_CENTER = "us17"
+# MAILCHIMP_EMAIL_LIST_ID = "e2ef12efee"
 
 
-STRIPE_SECRET_KEY = "sk_test_cu1lQmcg1OLffhLvYrSCp5XE"
-STRIPE_PUB_KEY = 'pk_test_PrV61avxnHaWIYZEeiYTTVMZ'
+# STRIPE_SECRET_KEY = "sk_test_cu1lQmcg1OLffhLvYrSCp5XE"
+# STRIPE_PUB_KEY = 'pk_test_PrV61avxnHaWIYZEeiYTTVMZ'
 
 
 MIDDLEWARE = [
@@ -184,18 +184,18 @@ PROTECTED_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn", "protecte
 
 
 
-from ecommerce.aws.conf import *
+# from ecommerce.aws.conf import *
 
 
-CORS_REPLACE_HTTPS_REFERER      = False
-HOST_SCHEME                     = "http://"
-SECURE_PROXY_SSL_HEADER         = None
-SECURE_SSL_REDIRECT             = False
-SESSION_COOKIE_SECURE           = False
-CSRF_COOKIE_SECURE              = False
-SECURE_HSTS_SECONDS             = None
-SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
-SECURE_FRAME_DENY               = False
+# CORS_REPLACE_HTTPS_REFERER      = False
+# HOST_SCHEME                     = "http://"
+# SECURE_PROXY_SSL_HEADER         = None
+# SECURE_SSL_REDIRECT             = False
+# SESSION_COOKIE_SECURE           = False
+# CSRF_COOKIE_SECURE              = False
+# SECURE_HSTS_SECONDS             = None
+# SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
+# SECURE_FRAME_DENY               = False
 
 
 
